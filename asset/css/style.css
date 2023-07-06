@@ -8,7 +8,10 @@
 html {
   font-size: 62.5%;
 }
-
+html,
+body {
+  scroll-behavior: smooth;
+}
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
@@ -51,7 +54,7 @@ a {
 .hero-wrap {
   position: relative;
   background: #e6f0ff;
-  height: 100vh;
+  height: calc(100vh - 90px);
 }
 
 .navbar {
